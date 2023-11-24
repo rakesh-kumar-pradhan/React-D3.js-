@@ -1,4 +1,4 @@
-.pane {
+/* .pane {
     background: #fff;
     border-style: solid;
     border-color: #fff;
@@ -8,7 +8,7 @@
     margin-right: 5px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px #dddddd;
-}
+} */
 
 .header {
     background-color: #eee;
@@ -19,6 +19,33 @@
     height: 60px;
 }
 
+.sidebar {
+    background-color: #fff !important; 
+}
+
+.sideBarMenu {
+    font-weight: 500;
+}
+
+.sideBarMenu .ant-menu-item {
+border-radius: 2px;
+padding: 0;
+font-size: 15px;
+}
+
+.sideBarMenu .ant-menu-item-selected {
+background-color: rgb(85, 188, 85);
+    border-radius: 2px;
+    color: white;
+    padding: 0;
+    }
+  
+    .invoiceButton {
+        color: rgb(85, 188, 85);
+        font-weight: 700;
+        background: #ddecf7;
+        border: none;
+    }
 
 
 

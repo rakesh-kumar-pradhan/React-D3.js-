@@ -1,3 +1,5 @@
 .bar { 
-    fill: steelblue; 
+    fill: rgb(5, 14, 22); 
+    border: 1px solid red;
+    border: 80px ;
 }

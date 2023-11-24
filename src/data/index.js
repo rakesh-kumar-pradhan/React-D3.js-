@@ -1,8 +1,9 @@
 const data = [
     {
-        'name': 'Bob',
+        'name': 'Sales',
         'gender': 'Male',
         'age': 33,
+        "month":"January",
         'activities': [
             { "date": "2018-10-2", "count": 56 },
             { "date": "2018-10-3", "count": 55 },
@@ -21,9 +22,10 @@ const data = [
         ]
     },
     {
-        'name': 'Robin',
+        'name': 'Advertising',
         'gender': 'Male',
         'age': 12,
+        "month":"February",
         'activities': [
             { "date": "2018-10-2", "count": 31 },
             { "date": "2018-10-3", "count": 76 },
@@ -42,9 +44,10 @@ const data = [
         ]
     },
     {
-        'name': 'Anne',
+        'name': 'Inventory',
         'gender': 'Female',
         'age': 41,
+        "month":"April",
         'activities': [
             { "date": "2018-10-2", "count": 31 },
             { "date": "2018-10-3", "count": 76 },
@@ -63,9 +66,10 @@ const data = [
         ]
     },
     {
-        'name': 'Mark',
+        'name': 'Entertainment',
         'gender': 'Male',
         'age': 16,
+        "month":"May",
         'activities': [
             { "date": "2018-10-2", "count": 66 },
             { "date": "2018-10-3", "count": 10 },
@@ -84,9 +88,10 @@ const data = [
         ]
     },
     {
-        'name': 'Joe',
+        'name': 'Product',
         'gender': 'Male',
         'age': 59,
+        "month":"June",
         'activities': [
             { "date": "2018-10-2", "count": 17 },
             { "date": "2018-10-3", "count": 22 },
@@ -108,6 +113,7 @@ const data = [
         'name': 'Eve',
         'gender': 'Female',
         'age': 38,
+        "month":"July",
         'activities': [
             { "date": "2018-10-2", "count": 3 },
             { "date": "2018-10-3", "count": 16 },
@@ -129,6 +135,7 @@ const data = [
         'name': 'Karen',
         'gender': 'Female',
         'age': 21,
+        "month":"August",
         'activities': [
             { "date": "2018-10-2", "count": 74 },
             { "date": "2018-10-3", "count": 99 },
@@ -150,6 +157,7 @@ const data = [
         'name': 'Kirsty',
         'gender': 'Unknown',
         'age': 25,
+        "month":"September",
         'activities': [
             { "date": "2018-10-2", "count": 5 },
             { "date": "2018-10-3", "count": 99 },
@@ -171,6 +179,7 @@ const data = [
         'name': 'Chris',
         'gender': 'Female',
         'age': 30,
+        "month":"October",
         'activities': [
             { "date": "2018-10-2", "count": 77 },
             { "date": "2018-10-3", "count": 28 },
@@ -192,6 +201,7 @@ const data = [
         'name': 'Lisa',
         'gender': 'Female',
         'age': 47,
+        "month":"November",
         'activities': [
             { "date": "2018-10-2", "count": 95 },
             { "date": "2018-10-3", "count": 66 },
@@ -213,6 +223,7 @@ const data = [
         'name': 'Tom',
         'gender': 'Male',
         'age': 15,
+        "month":"December",
         'activities': [
             { "date": "2018-10-2", "count": 21 },
             { "date": "2018-10-3", "count": 88 },
@@ -229,70 +240,7 @@ const data = [
             { "date": "2018-10-14", "count": 23 },
             { "date": "2018-10-15", "count": 13 }
         ]
-    },
-    {
-        'name': 'Stacy',
-        'gender': 'Unknown',
-        'age': 20,
-        'activities': [
-            { "date": "2018-10-2", "count": 56 },
-            { "date": "2018-10-3", "count": 98 },
-            { "date": "2018-10-4", "count": 95 },
-            { "date": "2018-10-5", "count": 62 },
-            { "date": "2018-10-6", "count": 84 },
-            { "date": "2018-10-7", "count": 51 },
-            { "date": "2018-10-8", "count": 71 },
-            { "date": "2018-10-9", "count": 73 },
-            { "date": "2018-10-10", "count": 33 },
-            { "date": "2018-10-11", "count": 5 },
-            { "date": "2018-10-12", "count": 50 },
-            { "date": "2018-10-13", "count": 12 },
-            { "date": "2018-10-14", "count": 77 },
-            { "date": "2018-10-15", "count": 68 }
-        ]
-    },
-    {
-        'name': 'Charles',
-        'gender': 'Male',
-        'age': 13,
-        'activities': [
-            { "date": "2018-10-2", "count": 98 },
-            { "date": "2018-10-3", "count": 10 },
-            { "date": "2018-10-4", "count": 93 },
-            { "date": "2018-10-5", "count": 19 },
-            { "date": "2018-10-6", "count": 70 },
-            { "date": "2018-10-7", "count": 26 },
-            { "date": "2018-10-8", "count": 6 },
-            { "date": "2018-10-9", "count": 82 },
-            { "date": "2018-10-10", "count": 98 },
-            { "date": "2018-10-11", "count": 43 },
-            { "date": "2018-10-12", "count": 95 },
-            { "date": "2018-10-13", "count": 50 },
-            { "date": "2018-10-14", "count": 60 },
-            { "date": "2018-10-15", "count": 93 }
-        ]
-    },
-    {
-        'name': 'Mary',
-        'gender': 'Female',
-        'age': 29,
-        'activities': [
-            { "date": "2018-10-2", "count": 53 },
-            { "date": "2018-10-3", "count": 20 },
-            { "date": "2018-10-4", "count": 82 },
-            { "date": "2018-10-5", "count": 76 },
-            { "date": "2018-10-6", "count": 9 },
-            { "date": "2018-10-7", "count": 3 },
-            { "date": "2018-10-8", "count": 76 },
-            { "date": "2018-10-9", "count": 23 },
-            { "date": "2018-10-10", "count": 80 },
-            { "date": "2018-10-11", "count": 84 },
-            { "date": "2018-10-12", "count": 88 },
-            { "date": "2018-10-13", "count": 53 },
-            { "date": "2018-10-14", "count": 58 },
-            { "date": "2018-10-15", "count": 66 }
-        ]
-    },
+    }
 ]
 
 export default data;
